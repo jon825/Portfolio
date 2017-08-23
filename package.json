@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jon825/Portfolio/issues"
   },
-  "homepage": "https://github.com/jon825/Portfolio#readme"
+  "homepage": "https://github.com/jon825/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
