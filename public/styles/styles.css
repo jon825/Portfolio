@@ -11,7 +11,7 @@
 #header-menu{
     text-align:right;
     white-space: nowrap;
-    top:20px;
+    top:50px;
     font-size:15px;
 }
 
@@ -22,7 +22,19 @@
 
 #menu:hover{
     color:gray;
+    text-decoration: none;
 }
+
+#name{
+    color:black;
+}
+
+#name:hover{
+    color:gray;
+    text-decoration: none;
+}
+
+
 
 section{
     border:solid;
@@ -31,16 +43,28 @@ section{
 #profile-description{
     text-align: center;
     font-family:avenir, serif;
-    font-size:20px;
+    font-size:22px;
 }
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 991px) {
+    #profile-description{
+        font-size: 18px;
+    }
+ }
 
-   body {
-      font-size: 2em;
-   }
 
+
+@media (max-width: 768px) {
+    #profile-description{
+        font-size: 16px;
+    }
 }
+
+@media (max-width: 575px) {
+    #profile-description{
+        font-size: 14px;
+    }
+ }
 
 
 
