@@ -1,20 +1,133 @@
-header{
-    position: absolute;
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+#name{
+    font-family:avenir;
+    font-size:90px;
+}
+
+#description{
+    font-family:leitura-news, serif;
+    font-style:normal;
+    font-weight:600;
+    font-size:25px;
+
+}
+
+img{
+      border-radius:40px;
+
+}
+.social-media-icons{
+    font-size:15px;
+    top:20px;
+    left:-10px;
+    color:black;
+
+}
+
+#header-quote{
+    font-size:20px;
+    top:30px;
+    left:-10px;
+}
+
+.fa{
+    padding-right: 15%;
+}
+
+.social-media-icons a{
+    color:black;
+}
+
+.social-media-icons a:hover{
+    color:darkgray;
+}
+
+#page-header{
+    padding-bottom:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header{
     height:55%;
-    width:100%;
     text-align:center;
     font-family:avenir;
+    border:solid;
+    border-color:teal;
 }
 
 #profile-pic{
-  position:absolute;
-  left:20px;
-  top:10px;
 
+  height:100%;
+  width:30%;
+  border:solid;
+  border-color:red;
 }
+
+
+
+#test1{
+    border:solid;
+    border-color:blue;
+    height:100%;
+    left:100px;
+}
+
+
+img{
+  height:100%;
+  width:100%;
+  border-radius:40px;
+  border:solid;
+  border-color: blue;
+}
+
 
 #name h1{
     font-size:100px;
+    border:solid;
+    position:absolute;
+    border-color: salmon
 }
 
 #quote{
@@ -28,28 +141,20 @@ header{
     font-style:normal;
     font-weight:600;
     font-size:19px;
+    border:solid;
+    border-color: pink
 }
 
-img{
-  height:280px;
-  width:280px;
-  border-radius:40px;
-}
 
-.fa{
-    padding:20px 100px 0 100px;
-}
 
-.social-media-icons{
-    height:90px;
-    width:900px;
-    position:absolute;
-    left:320px;
-}
+
+
+
+
 .box{
-    height:800px;
-    width:100%;
-    position:absolute;
+    height:40%;
     border:solid;
     border-color:salmon;
 }
+
+*/
