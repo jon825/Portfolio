@@ -34,8 +34,6 @@
     text-decoration: none;
 }
 
-
-
 section{
     border:solid;
 }
@@ -45,6 +43,21 @@ section{
     font-family:avenir, serif;
     font-size:22px;
 }
+
+
+
+
+
+#project-description{
+    font-size:17px;
+}
+
+#project-img{
+    border-radius:40px;
+
+}
+
+
 
 @media (max-width: 991px) {
     #profile-description{
