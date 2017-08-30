@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -31,31 +32,44 @@
         </div>
       </header>
       <aside class="row">
-        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5" id="profile-pic">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="profile-pic">
           <img src="jonathan.png" class="img-responsive" />
         </div>
 
-        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-7" id="projects-row">
-          <div class="row" id="projects">
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6" id="project-description">
-                <h3>Tic-Tac-Toe</h3>
-                <br>
-                Basic tic-tac-toe game developed through Pair Programming with a fellow classmate from Brainstation using Reactjs. Objective of the game is to This app was deployed through surge.
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" >
-              <img id="project-img" src="tic-tac-toe.png" class="img-responsive" />
-            </div>
-          </div>
-          <div class="row" id="projects">
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6" id="project-description">
-                <h3>Cookbook</h3>
-                <br>
-                CookBook is here to help you find any recipes available with your current ingredients. Just input some ingredients available in your fridge, and CookBook will find you the closest human edible recipe based on said ingredients.
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="projects-row">
 
-                Built with Brain Station graduate from Toronto. Frontend user interface leverages React and Webpack. Backend is built with Node.js.
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" id="project-img-cookbook" >
-              <img id="project-img" src="cookbook.png" class="img-responsive" />
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="cookbook.png" alt="CookBook" style="width:100%;">
+                </div>
+
+                <div class="item">
+                  <img src="tic-tac-toe.png" alt="" style="width:100%;">
+                </div>
+
+                <div class="item">
+                  <img src="greenleaf.png" alt="New york" style="width:100%;">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
 
