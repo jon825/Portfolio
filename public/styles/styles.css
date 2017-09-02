@@ -4,8 +4,6 @@ body {
     font-weight: 400;
 }
 
-
-
 #header-name{
     font-family:avenir;
     font-size:40px;
@@ -75,17 +73,27 @@ body {
     text-align:center;
 }
 
+@media (max-width:1200px){
+    .overlay p{
+        font-size:20px;
+    }
+}
+
 @media (max-width: 991px) {
     #profile-description{
         font-size: 18px;
     }
+    .overlay p{
+        font-size:16px;
+    }
  }
-
-
 
 @media (max-width: 768px) {
     #profile-description{
         font-size: 16px;
+    }
+    .overlay p{
+        font-size:14px;
     }
 }
 
@@ -93,34 +101,50 @@ body {
     #profile-description{
         font-size: 14px;
     }
+    .overlay p{
+        font-size:12px;
+    }
  }
-
 
 .item .overlay{
     position:absolute;
     top:0;
     left: 0;
     bottom:0;
-    width: 100%;
+    width: 90%;
     opacity:0;
     color:white;
+    font-size:25px;
     background-color:rgba(0,0,0,0);
+    text-align: left;
+    padding:30px 0 0 10%;
+    font-family:avenir, serif;
+}
+
+#greenleaf{
+    opacity: 1;
+    color:black;
+    padding-top:20%;
 }
 
 .item img{
     width: 100%;
 }
 
-.overlay:hover{
+.item .overlay:hover{
     opacity: 1;
-    background: rgba(0,0,0,0.2);
 
 }
 
-.carousel-inner img:hover{
+.carousel-inner .item:hover > img{
     -webkit-filter: blur(2px);
       filter: blur(9px);
 }
+
+#contact-header h4{
+    text-align: center
+}
+
 
 
 

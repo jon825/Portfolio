@@ -17,6 +17,10 @@ app.get('/projects', (req, res) =>{
   res.render('pages/project.ejs');
 })
 
+app.get('/contact', (req, res) =>{
+  res.render('pages/contact.ejs');
+})
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
