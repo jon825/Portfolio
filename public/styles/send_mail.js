@@ -11,7 +11,7 @@ $(document).ready(()=>{
       $("#message").empty().html("<br>Please fill out the form!")
     } else{
     // $("#message").text("Sending E-mail..Please wait");
-    $.get("http://localhost:5000/send",{
+    $.get("http://jonathankok.herokuapp.com/send",{
       user_name:user_name,
       email_address:email_address,
       text:text
