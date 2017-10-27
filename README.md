@@ -12,5 +12,5 @@ Feel free to check it out at [http://jonathankok.herokuapp.com]
 * Mailgun
 
 ## Feature
-Through Mailgun clients can directly contact me through email.
+Through Mailgun clients can directly contact me through email from my personal website.
 
