@@ -1,7 +1,7 @@
 # Portfolio
 
 This is my online portfolio!
-Feel free to check it out at [http://jonathankok.herokuapp.com] (http://jonathankok.herokuapp.com)
+Feel free to check it out at [http://jonathankok.herokuapp.com]
 
 
 ## Built with
